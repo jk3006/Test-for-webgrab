@@ -40,6 +40,12 @@ jobs:
         run: |
           cp $GITHUB_WORKSPACE/webgrab/WebGrab++.config.xml ~/.wg++/
 
+      - name: Test internet from GitHub Actions
+        run: |
+          curl -I https://www.google.com
+          curl -I https://webgrabplus.com
+          ping -c 4 8.8.8.8 || true
+
       - name: Run WebGrab+Plus
         run: |
           cd ~/.wg++
