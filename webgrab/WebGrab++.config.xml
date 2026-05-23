@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml 
+  and http://webgrabplus.com/sites/default/files/downloads/Misc/Documented_Configuration_Files_0.zip -->
+  <filename>epg_HK.xml</filename>
+  <mode>m n !</mode>
+  <postprocess grab="y" run="n">rex</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36 Edge/18.18362 Firefox/75.0</user-agent>
+  <!-- to get access to sites which require your credentials -->
+  <credentials user="jackykwan" password="Forump@ssw0rd">site name</credentials>
+  <!-- for siteini's that need a decrypt_userkey-->
+  <decryptkey site="site-name">decrypt_userkey</decryptkey>
+  <!-- add the correct license id values in the next line -->
+  <license wg-username="jackykwan" registered-email="jackykwan1980@gmail.com" password="4d5bebdb">To force a license update; replace this text with the letter f</license>
+  <logging>on</logging>
+  <retry time-out="10">6</retry>
+  <!-- timespan 0 is one day -->
+  <timespan>6</timespan>
+  <update>i</update>
+  <!--
+            Replace the next dummy channel entry with the channels you want.
+			You can look into the installed siteini.pack folder on your computer
+  
+            For the latest version,
+            see http://webgrabplus.com/epg-channels for the available sites/channels
+			or https://github.com/SilentButeo2/webgrabplus-siteinipack/tree/master/siteini.pack
+			or run SiteIni.Pack.Update.exe which is in the bin folder
+  -->    
+    <channel update="i" site="mytvsuper.com" site_id="CWIN" xmltv_id="[1] SUPER FREE (免費)/SUPER FREE (Free)">[1] SUPER FREE (免費)/SUPER FREE (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="SVAR" xmltv_id="[2] SUPER獎門人 (免費)/SUPER Trio (Free)">[2] SUPER獎門人 (免費)/SUPER Trio (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="SEYT" xmltv_id="[3] SUPER EYT (免費)/SUPER EYT (Free)">[3] SUPER EYT (免費)/SUPER EYT (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="SFOO" xmltv_id="[4] SUPER識食 (免費)/SUPER Food (Free)">[4] SUPER識食 (免費)/SUPER Food (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="STRA" xmltv_id="[5] SUPER識嘆 (免費)/SUPER Travel (Free)">[5] SUPER識嘆 (免費)/SUPER Travel (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="SMUS" xmltv_id="[6] SUPER Music (免費)/SUPER Music (Free)">[6] SUPER Music (免費)/SUPER Music (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="SGOL" xmltv_id="[7] SUPER金曲 (免費)/SUPER Goldies (Free)">[7] SUPER金曲 (免費)/SUPER Goldies (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="SSIT" xmltv_id="[8] SUPER煲劇 (免費)/SUPER Sitcom (Free)">[8] SUPER煲劇 (免費)/SUPER Sitcom (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="STVM" xmltv_id="[9] SUPER單元劇 (免費)/SUPER TV Movies (Free)">[9] SUPER單元劇 (免費)/SUPER TV Movies (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="SDOC" xmltv_id="[10] 真情SUPER煲 (免費)/SUPER Sitcom2 (Free)">[10] 真情SUPER煲 (免費)/SUPER Sitcom2 (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="SSPT" xmltv_id="[11] SUPER Sports (免費)/SUPER Sports (Free)">[11] SUPER Sports (免費)/SUPER Sports (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="C18" xmltv_id="[18] myTV SUPER 18台/myTV SUPER 18">[18] myTV SUPER 18台/myTV SUPER 18</channel>
+    <channel update="i" site="mytvsuper.com" site_id="TVG" xmltv_id="[80] 黃金翡翠台 (免費)/Golden Jade (Free)">[80] 黃金翡翠台 (免費)/Golden Jade (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="J" xmltv_id="[81] 翡翠台 (免費)/Jade (Free)">[81] 翡翠台 (免費)/Jade (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="B" xmltv_id="[82] TVB Plus (免費)/TVB Plus (Free)">[82] TVB Plus (免費)/TVB Plus (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="C" xmltv_id="[83] 無綫新聞台 (免費)/TVB News Channel (Free)">[83] 無綫新聞台 (免費)/TVB News Channel (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="P" xmltv_id="[84] 明珠台 (免費)/Pearl (Free)">[84] 明珠台 (免費)/Pearl (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CTVC" xmltv_id="[86] 千禧經典台/TVB Classic">[86] 千禧經典台/TVB Classic</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CTVS" xmltv_id="[87] 亞洲劇台/Asian Drama">[87] 亞洲劇台/Asian Drama</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CDR3" xmltv_id="[89] 華語劇台/Chinese Drama">[89] 華語劇台/Chinese Drama</channel>
+    <channel update="i" site="mytvsuper.com" site_id="TVO" xmltv_id="[90] 黃金華劇台/Golden Chinese Drama">[90] 黃金華劇台/Golden Chinese Drama</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CTVE" xmltv_id="[91] 娛樂新聞台 (免費)/Entertainment News (Free)">[91] 娛樂新聞台 (免費)/Entertainment News (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CCOC" xmltv_id="[98] 戲曲台/Chinese Opera Channel">[98] 戲曲台/Chinese Opera Channel</channel>
+    <channel update="i" site="mytvsuper.com" site_id="KID" xmltv_id="[100] SUPER Kids Channel/SUPER Kids Channel">[100] SUPER Kids Channel/SUPER Kids Channel</channel>
+    <channel update="i" site="mytvsuper.com" site_id="ZOO" xmltv_id="[101] ZooMoo/ZooMoo">[101] ZooMoo/ZooMoo</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CNIKO" xmltv_id="[104] Nickelodeon/Nickelodeon">[104] Nickelodeon/Nickelodeon</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CNIJR" xmltv_id="[105] Nick Jr/Nick Jr">[105] Nick Jr/Nick Jr</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CCLM" xmltv_id="[200] 粵語片台/Classic Movies">[200] 粵語片台/Classic Movies</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CMAM" xmltv_id="[201] 美亞電影台/Mei Ah Movie Channel">[201] 美亞電影台/Mei Ah Movie Channel</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CTHR" xmltv_id="[202] Thrill/Thrill">[202] Thrill/Thrill</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CCCM" xmltv_id="[203] 天映經典頻道/CCM">[203] 天映經典頻道/CCM</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CRTX" xmltv_id="[205] ROCK Action/ROCK Action">[205] ROCK Action/ROCK Action</channel>
+    <channel update="i" site="mytvsuper.com" site_id="POPC" xmltv_id="[206] PopC/PopC">[206] PopC/PopC</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CKIX" xmltv_id="[304] KIX/KIX">[304] KIX/KIX</channel>
+    <channel update="i" site="mytvsuper.com" site_id="LNH" xmltv_id="[402] Love Nature HD/Love Nature HD">[402] Love Nature HD/Love Nature HD</channel>
+    <channel update="i" site="mytvsuper.com" site_id="LN4" xmltv_id="[403] Love Nature 4K/Love Nature 4K">[403] Love Nature 4K/Love Nature 4K</channel>
+    <channel update="i" site="mytvsuper.com" site_id="SMS" xmltv_id="[407] Global Trekker/Global Trekker">[407] Global Trekker/Global Trekker</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CRTE" xmltv_id="[501] ROCK綜藝娛樂/ROCK Entertainment">[501] ROCK綜藝娛樂/ROCK Entertainment</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CAXN" xmltv_id="[502] AXN/AXN">[502] AXN/AXN</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CANI" xmltv_id="[504] Animax/Animax">[504] Animax/Animax</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CJTV" xmltv_id="[505] tvN/tvN">[505] tvN/tvN</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CTS1" xmltv_id="[601] 無線衛星亞洲台/TVBS Asia">[601] 無線衛星亞洲台/TVBS Asia</channel>
+    <channel update="i" site="mytvsuper.com" site_id="FBX" xmltv_id="[603] FashionBox/FashionBox">[603] FashionBox/FashionBox</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CMEZ" xmltv_id="[604] Mezzo Live HD/Mezzo Live HD">[604] Mezzo Live HD/Mezzo Live HD</channel>
+    <channel update="i" site="mytvsuper.com" site_id="DTV" xmltv_id="[609] 東方衛視國際頻道 (免費)/Dragon TV (Free)">[609] 東方衛視國際頻道 (免費)/Dragon TV (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="PCC" xmltv_id="[610] 鳳凰衛視中文台 (免費)/Phoenix Chinese Channel (Free)">[610] 鳳凰衛視中文台 (免費)/Phoenix Chinese Channel (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="PIN" xmltv_id="[611] 鳳凰衛視資訊台 (免費)/Phoenix InfoNews Channel (Free)">[611] 鳳凰衛視資訊台 (免費)/Phoenix InfoNews Channel (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="PHK" xmltv_id="[612] 鳳凰衛視香港台 (免費)/Phoenix Hong Kong Channel (Free)">[612] 鳳凰衛視香港台 (免費)/Phoenix Hong Kong Channel (Free)</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CTSN" xmltv_id="[702] 無線衛星新聞台/TVBS News">[702] 無線衛星新聞台/TVBS News</channel>
+    <channel update="i" site="mytvsuper.com" site_id="CNHK" xmltv_id="[707] NHK World-Japan/NHK World-Japan">[707] NHK World-Japan/NHK World-Japan</channel>
+    <channel update="i" site="mytvsuper.com" site_id="EVT2" xmltv_id="[901] myTV SUPER直播足球2台/myTV SUPER Live Soccer 2">[901] myTV SUPER直播足球2台/myTV SUPER Live Soccer 2</channel>
+    <channel update="i" site="mytvsuper.com" site_id="EVT3" xmltv_id="[902] myTV SUPER直播足球3台/myTV SUPER Live Soccer 3">[902] myTV SUPER直播足球3台/myTV SUPER Live Soccer 3</channel>
+    <channel update="i" site="mytvsuper.com" site_id="EVT4" xmltv_id="[903] myTV SUPER直播足球4台/myTV SUPER Live Soccer 4">[903] myTV SUPER直播足球4台/myTV SUPER Live Soccer 4</channel>
+    <channel update="i" site="mytvsuper.com" site_id="EVT5" xmltv_id="[904] myTV SUPER直播足球5台/myTV SUPER Live Soccer 5">[904] myTV SUPER直播足球5台/myTV SUPER Live Soccer 5</channel>
+    <channel update="i" site="mytvsuper.com" site_id="EVT6" xmltv_id="[905] myTV SUPER直播足球6台/myTV SUPER Live Soccer 6">[905] myTV SUPER直播足球6台/myTV SUPER Live Soccer 6</channel>
+    <channel update="i" site="mytvsuper.com" site_id="EVT7" xmltv_id="[906] myTV SUPER直播足球7台/myTV SUPER Live Soccer 7">[906] myTV SUPER直播足球7台/myTV SUPER Live Soccer 7</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##096" xmltv_id="ZH:ViuTVsix">ZH:ViuTVsix</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##099" xmltv_id="ZH:ViuTV">ZH:ViuTV</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##102" xmltv_id="ZH:Viu 頻道">ZH:Viu 頻道</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##105" xmltv_id="ZH:Now華劇台">ZH:Now華劇台</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##108" xmltv_id="ZH:NowJelli">ZH:NowJelli</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##111" xmltv_id="ZH:HBO Hits">ZH:HBO Hits</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##112" xmltv_id="ZH:HBO Family">ZH:HBO Family</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##113" xmltv_id="ZH:CINEMAX">ZH:CINEMAX</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##114" xmltv_id="ZH:HBO Signature">ZH:HBO Signature</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##115" xmltv_id="ZH:HBO">ZH:HBO</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##116" xmltv_id="ZH:MOVIE MOVIE">ZH:MOVIE MOVIE</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##119" xmltv_id="ZH:HITS MOVIES">ZH:HITS MOVIES</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##133" xmltv_id="ZH:Now 爆谷台">ZH:Now 爆谷台</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##138" xmltv_id="ZH:Now爆谷星影台">ZH:Now爆谷星影台</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##150" xmltv_id="ZH:Animax">ZH:Animax</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##155" xmltv_id="ZH:tvN">ZH:tvN</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##156" xmltv_id="ZH:KBS World">ZH:KBS World</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##162" xmltv_id="ZH:東森亞洲衛視">ZH:東森亞洲衛視</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##208" xmltv_id="ZH:Discovery Asia">ZH:Discovery Asia</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##209" xmltv_id="ZH:Discovery Channel">ZH:Discovery Channel</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##210" xmltv_id="ZH:動物星球頻道">ZH:動物星球頻道</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##211" xmltv_id="ZH:Discovery 科學頻道">ZH:Discovery 科學頻道</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##212" xmltv_id="ZH:DMAX">ZH:DMAX</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##213" xmltv_id="ZH:TLC旅遊生活頻道">ZH:TLC旅遊生活頻道</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##220" xmltv_id="ZH:BBC Earth">ZH:BBC Earth</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##221" xmltv_id="ZH:戶外頻道">ZH:戶外頻道</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##222" xmltv_id="ZH:罪案 + 偵緝">ZH:罪案 + 偵緝</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##223" xmltv_id="ZH:HISTORY">ZH:HISTORY</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##331" xmltv_id="ZH:Now直播台">ZH:Now直播台</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##332" xmltv_id="ZH:Now新聞台">ZH:Now新聞台</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##333" xmltv_id="ZH:Now財經台">ZH:Now財經台</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##371" xmltv_id="ZH:東森亞洲新聞台">ZH:東森亞洲新聞台</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##460" xmltv_id="ZH:Da Vinci">ZH:Da Vinci</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##502" xmltv_id="ZH:BBC Lifestyle">ZH:BBC Lifestyle</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##512" xmltv_id="ZH:AXN">ZH:AXN</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##513" xmltv_id="ZH:HITS">ZH:HITS</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##517" xmltv_id="ZH:ROCK Entertainment">ZH:ROCK Entertainment</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##525" xmltv_id="ZH:Lifetime">ZH:Lifetime</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##526" xmltv_id="ZH:Food Network">ZH:Food Network</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##527" xmltv_id="ZH:亞洲美食台">ZH:亞洲美食台</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##538" xmltv_id="ZH:中天亞洲台">ZH:中天亞洲台</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##540" xmltv_id="ZH:深圳衛視">ZH:深圳衛視</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##541" xmltv_id="ZH:CCTV-1">ZH:CCTV-1</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##542" xmltv_id="ZH:CCTV-4">ZH:CCTV-4</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##543" xmltv_id="ZH:大灣區衛視">ZH:大灣區衛視</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##545" xmltv_id="ZH:中央電視台新聞頻道">ZH:中央電視台新聞頻道</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##553" xmltv_id="ZH:三沙衛視">ZH:三沙衛視</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##555" xmltv_id="ZH:浙江衛視">ZH:浙江衛視</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##611" xmltv_id="ZH:Now Sports 4K 1">ZH:Now Sports 4K 1</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##612" xmltv_id="ZH:Now Sports 4K 2">ZH:Now Sports 4K 2</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##613" xmltv_id="ZH:Now Sports 4K 3">ZH:Now Sports 4K 3</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##616" xmltv_id="ZH:Now Sports 4K 616">ZH:Now Sports 4K 616</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##617" xmltv_id="ZH:Now Sports 4K 617">ZH:Now Sports 4K 617</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##618" xmltv_id="ZH:Now Sports 618">ZH:Now Sports 618</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##619" xmltv_id="ZH:Now Sports 619">ZH:Now Sports 619</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##620" xmltv_id="ZH:Now Sports Premier League TV">ZH:Now Sports Premier League TV</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##621" xmltv_id="ZH:Now Sports 英超1台">ZH:Now Sports 英超1台</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##622" xmltv_id="ZH:Now Sports 英超2台">ZH:Now Sports 英超2台</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##623" xmltv_id="ZH:Now Sports 英超3台">ZH:Now Sports 英超3台</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##624" xmltv_id="ZH:Now Sports 英超4台">ZH:Now Sports 英超4台</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##625" xmltv_id="ZH:Now Sports 英超5台">ZH:Now Sports 英超5台</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##626" xmltv_id="ZH:Now Sports 英超6台">ZH:Now Sports 英超6台</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##627" xmltv_id="ZH:Now Sports 英超7台">ZH:Now Sports 英超7台</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##630" xmltv_id="ZH:Now Sports 精選">ZH:Now Sports 精選</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##631" xmltv_id="ZH:Now Sports 1">ZH:Now Sports 1</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##632" xmltv_id="ZH:Now Sports 2">ZH:Now Sports 2</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##633" xmltv_id="ZH:Now Sports 3">ZH:Now Sports 3</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##634" xmltv_id="ZH:Now Sports 4">ZH:Now Sports 4</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##635" xmltv_id="ZH:Now Sports 5">ZH:Now Sports 5</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##636" xmltv_id="ZH:Now Sports 6">ZH:Now Sports 6</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##637" xmltv_id="ZH:Now Sports 7">ZH:Now Sports 7</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##638" xmltv_id="ZH:beIN SPORTS 1">ZH:beIN SPORTS 1</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##639" xmltv_id="ZH:beIN SPORTS 2">ZH:beIN SPORTS 2</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##640" xmltv_id="ZH:曼聯電視頻道">ZH:曼聯電視頻道</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##641" xmltv_id="ZH:Now Sports 641">ZH:Now Sports 641</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##642" xmltv_id="ZH:NBA TV">ZH:NBA TV</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##643" xmltv_id="ZH:beIN SPORTS 3">ZH:beIN SPORTS 3</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##644" xmltv_id="ZH:beIN SPORTS 4">ZH:beIN SPORTS 4</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##645" xmltv_id="ZH:beIN SPORTS 5">ZH:beIN SPORTS 5</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##646" xmltv_id="ZH:beIN SPORTS 6">ZH:beIN SPORTS 6</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##647" xmltv_id="ZH:Now Sports 647">ZH:Now Sports 647</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##650" xmltv_id="ZH:Now Sports 650">ZH:Now Sports 650</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##651" xmltv_id="ZH:Now Sports 651">ZH:Now Sports 651</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##652" xmltv_id="ZH:Now Sports 652">ZH:Now Sports 652</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##668" xmltv_id="ZH:Now668">ZH:Now668</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##680" xmltv_id="ZH:Now Sports Plus">ZH:Now Sports Plus</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##683" xmltv_id="ZH:Now Golf 2">ZH:Now Golf 2</channel>
+    <channel update="i" site="nowplayer.now.com" site_id="zh##684" xmltv_id="ZH:Now Golf 3">ZH:Now Golf 3</channel>
+    <channel update="i" site="rthk.hk" site_id="tv31" xmltv_id="TV 31">TV 31</channel>
+    <channel update="i" site="rthk.hk" site_id="tv32" xmltv_id="TV 32">TV 32</channel>
+    <channel update="i" site="rthk.hk" site_id="tv33" xmltv_id="TV 33">TV 33</channel>
+    <channel update="i" site="rthk.hk" site_id="tv34" xmltv_id="TV 34">TV 34</channel>
+    <channel update="i" site="rthk.hk" site_id="tv35" xmltv_id="TV 35">TV 35</channel>
+    <channel update="i" site="hoy.tv" site_id="1" xmltv_id="HOY 國際財經台/HOY IBC">HOY 國際財經台/HOY IBC</channel>
+    <channel update="i" site="hoy.tv" site_id="2" xmltv_id="HOY TV/HOY TV">HOY TV/HOY TV</channel>
+    <channel update="i" site="hoy.tv" site_id="3" xmltv_id="HOY 資訊台/HOY Infotainment">HOY 資訊台/HOY Infotainment</channel>
+</settings>
