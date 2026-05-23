@@ -36,6 +36,11 @@ jobs:
           chmod +x install.sh
           ./install.sh
 
-      - name: Test run WebGrab+Plus
+      - name: Copy config
         run: |
-          ~/.wg++/run.net.sh
+          cp $GITHUB_WORKSPACE/webgrab/WebGrab++.config.xml ~/.wg++/
+
+      - name: Run WebGrab+Plus
+        run: |
+          cd ~/.wg++
+          ./run.net.sh
