@@ -49,4 +49,4 @@ jobs:
       - name: Run WebGrab+Plus
         run: |
           cd ~/.wg++
-          DOTNET_SYSTEM_NET_DISABLEIPV6=1 ./run.net.sh
+          DOTNET_SYSTEM_NET_DISABLEIPV6=1 ./run.net.sh WebGrab++.config.xml
